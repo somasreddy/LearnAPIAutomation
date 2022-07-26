@@ -1,3 +1,3 @@
 # LearnAPIAutomation
 Author : @somasreddy
-mailId : som.v.reddy@gmail.com
+mail Id : som.v.reddy@gmail.com
