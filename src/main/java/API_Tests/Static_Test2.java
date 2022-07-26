@@ -9,7 +9,7 @@ public class Static_Test2 {
 	@Test
 	public void test() {
 		baseURI = "https://reqres.in/api/"; //is the base url
-	// we can use this as we have static imported the restassured and Matchers library   
+		// we can use this as we have static imported the restassured and Matchers library   
 		given().
 			get("users?page=2"). //end point of the api
 		then().
