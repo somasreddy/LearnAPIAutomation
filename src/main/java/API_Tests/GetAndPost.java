@@ -38,7 +38,6 @@ public class GetAndPost {
 		json.put("name", "somasekhar");
 		json.put("job", "Sr.TAE");
 		String mjson = json.toJSONString();
-//		System.out.println(mjson);
 		
 		baseURI = "https://reqres.in/api/";
 		
