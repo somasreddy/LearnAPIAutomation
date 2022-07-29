@@ -1,3 +1,4 @@
-/test-output/
-*.html
-*.xml
+test-output/old/Default suite/*.html
+test-output/old/Default suite/*.xml
+test-output/Default suite/*.html
+test-output/Default suite/*.xml
