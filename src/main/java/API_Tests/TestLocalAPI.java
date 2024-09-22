@@ -29,6 +29,7 @@ public class TestLocalAPI {
 	}
 	
 	//@Test
+	@SuppressWarnings("unchecked")
 	public void testPut() {
 		JSONObject json= new JSONObject();
 		json.put("firstName", "Ranjana");
@@ -49,6 +50,7 @@ public class TestLocalAPI {
 	}
 	
 	//@Test
+	@SuppressWarnings("unchecked")
 	public void testPatch() {
 		JSONObject json= new JSONObject();
 		json.put("subjectid","1");

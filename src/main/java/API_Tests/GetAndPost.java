@@ -29,15 +29,18 @@ public class GetAndPost {
 
 	}
 
+	@SuppressWarnings("unchecked")
 	@Test
 	public void testPost() {
-//		Map<String, Object> map = new HashMap<>();
-//		map.put("name", "somasekhar");
-//		map.put("job", "Sr.TAE");
+		Map<String, Object> map = new HashMap<>();
+		map.put("name", "somasekhar");
+		map.put("job", "Sr.TAE");
 		JSONObject json = new JSONObject();
-		json.put("name", "somasekhar");
-		json.put("job", "Sr.TAE");
-		String mjson = json.toJSONString();
+	        json.put("name", "somasekhar");
+	        json.put("job", "Sr.TAE");
+	        
+	        // Convert to JSON string
+	        String mjson = json.toString();
 		
 		baseURI = "https://reqres.in/api/";
 		
