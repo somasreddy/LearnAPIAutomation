@@ -2,35 +2,30 @@
 *.class
 *.o
 *.out
-*.html
-*.css
-*.xml
-*.js
-*.xsd
 
 # Ignore log files
 *.log
 
-# Ignore directories
+# Ignore build directories
 /bin/
-/target/
 /build/
+/target/
 /test-output/
 
-# Ignore specific files
-secret.txt
-config.yml
-
-# Ignore IDE files
+# Ignore IDE-specific files
 /.idea/
 /*.iml
 /.classpath
 /.project
 /.settings/
 
-# Ignore OS-specific files
+# Ignore OS-generated files
 .DS_Store
 Thumbs.db
 
 # Ignore environment-specific files
 .env
+
+# Ignore sensitive or configuration files
+secret.txt
+config.yml
